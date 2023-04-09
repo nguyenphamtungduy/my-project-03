@@ -121,6 +121,7 @@ a {
     font-size: 1rem;
     display: inline-flex;
     align-items: center;
+    font-family: "Sora", sans-serif;
 }
 
 .logo__circle {
@@ -677,4 +678,111 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #575f66;
+}
+
+/* footer */
+.footer {
+    padding-top: 100px;
+    background-color: var(--primary-bg);
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 21px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #a9b3bb;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer__group {
+    margin-bottom: 28px;
+}
+
+.footer__link {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #a9b3bb;
+    white-space: nowrap;
+}
+
+.footer__social {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__icon {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: var(--primary-color);
+}
+
+.footer__icon:hover {
+    color: #fff;
+    background: var(--primary-color);
+}
+
+.footer__icon a {
+    color: inherit;
+}
+
+.footer__sub {
+    width: 273px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #a9b3bb;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    column-gap: 12px;
+}
+
+.footer__box {
+    width: 212px;
+    height: 46px;
+    outline: none;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #9ca8b1;
+}
+
+.form-btn {
+    --height: 46px;
+
+    display: block;
+    min-width: 108px;
+    border-radius: 4px;
+}
+
+.footer__cr {
+    border-top: solid 1px #406181;
+    padding: 28px 0 48px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #aab3ba;
 }
