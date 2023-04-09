@@ -642,3 +642,39 @@ a {
 .new__info--more:hover {
     color: var(--primary-color);
 }
+
+.appointment {
+    padding: 85px 0 170px;
+}
+
+.appointment__inner {
+    padding: 100px 0;
+    background-color: #f6fbff;
+    text-align: center;
+}
+
+.appointment__title {
+    position: relative;
+    padding: 18px;
+}
+
+.appointment__title::after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+}
+
+.appointment__desc {
+    margin: 18px auto 38px;
+    width: 617px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
